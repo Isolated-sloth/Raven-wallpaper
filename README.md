@@ -11,7 +11,7 @@ Browse your own video files (.mp4, .webm, .mkv, .mov, .gif), preview thumbnails,
 - Multi-monitor support (with fallback to all monitors)
 - Stop/apply controls
 
-![Screenshot of Raven Wallpaper](Screenshot.png)  
+![Screenshot of Raven Wallpaper](screenshot.png)  
 
 ## Download & Run (Recommended – Standalone Executable)
 
