@@ -10,7 +10,6 @@ Browse your own video files (.mp4, .webm, .mkv, .mov, .gif), preview thumbnails,
 - Thumbnail previews
 - Multi-monitor support (with fallback to all monitors)
 - Stop/apply controls
-- Remembers last folder and video
 
 ![Screenshot of Raven Wallpaper](Screenshot.png)  
 
