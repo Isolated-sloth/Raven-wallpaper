@@ -4,6 +4,10 @@ A simple, lightweight live video wallpaper selector for Linux (tested on Pop!_OS
 
 Browse your own video files (.mp4, .webm, .mkv, .mov, .gif), preview thumbnails, and apply them as looped, silent wallpapers using **mpvpaper**.
 
+The app requires mpvpaper to function (it sets the wallpaper). Install with:
+```Bash
+sudo apt update && sudo apt install mpvpaper
+```
 ## Features
 
 - Custom folder selection
@@ -94,24 +98,8 @@ wlr-randr (for monitor detection – optional): sudo apt install wlr-randr
 
 App closes immediately?
 > Run from terminal (./"Raven Wallpaper") and share any output/errors.
+
 No thumbnails?
 > Install ffmpeg or check if your videos are in a supported format.
-"tk" in taskbar?
-Known Tkinter limitation on Linux. Use the .desktop file below for proper menu/dock integration.
 
-.desktop File (Add to Menu / Dock)
-Create ~/.local/share/applications/raven-wallpaper.desktop:
-ini[Desktop Entry]
-```
-Name=Raven Wallpaper
-Exec=/full/path/to/Raven Wallpaper   # replace with actual path
-Icon=/full/path/to/your/icon.png     # optional – your app icon
-Type=Application
-Terminal=false
-Categories=Utility;
-StartupWMClass=RavenWallpaper
-```
-Then update the database:
-```Bash
-update-desktop-database ~/.local/share/applications/
-```
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
