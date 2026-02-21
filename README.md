@@ -21,7 +21,7 @@ sudo apt update && sudo apt install mpvpaper
 
 No installation required! The executable is self-contained (includes bundled ffmpeg for thumbnails).
 
-1. Go to the [**Releases**](https://github.com/Isolated-sloth/Raven-wallpaper/releases/tag/v1.0.0) tab 
+1. Go to the [**Releases**](https://github.com/Isolated-sloth/Raven-wallpaper/releases/) tab 
    → download the latest version of `Raven Wallpaper` (single file, ~200–400 MB).
 
 2. Make it executable (one-time):
